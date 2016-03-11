@@ -1,4 +1,4 @@
-angular.module('thunder.controllers', [])
+angular.module('favor8.controllers', [])
 
 .controller('DiscoverCtrl', function($scope, $timeout, User) {
     $scope.products = [

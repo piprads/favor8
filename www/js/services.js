@@ -1,4 +1,4 @@
-angular.module('thunder.services', [])
+angular.module('favor8.services', [])
 
 .factory('User', function(){
   var o = {

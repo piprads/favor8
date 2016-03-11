@@ -1,11 +1,11 @@
-// Ionic thunder App
+// Ionic favor8 App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
-// 'thunder' is the name of this angular module example (also set in a <body> attribute in index.html)
+// 'favor8' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-// 'thunder.services' is found in services.js
-// 'thunder.controllers' is found in controllers.js
-angular.module('thunder', ['ionic', 'thunder.controllers', 'thunder.services'])
+// 'favor8.services' is found in services.js
+// 'favor8.controllers' is found in controllers.js
+angular.module('favor8', ['ionic', 'favor8.controllers', 'favor8.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
