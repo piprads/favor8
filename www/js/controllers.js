@@ -65,3 +65,11 @@ angular.module('favor8.controllers', [])
   }
 
 })
+
+
+// Controller for Splash screen
+.controller('SplashCtrl', function($scope) {})
+
+
+
+

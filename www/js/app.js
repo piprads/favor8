@@ -58,9 +58,16 @@ angular.module('favor8', ['ionic', 'favor8.controllers', 'favor8.services'])
           controller: 'FavoritesCtrl'
         }
       }
-    });
+    })
+
+  // splash screen
+  .state('splash', {
+    url: '/',
+    templateUrl: 'templates/splash.html',
+    controller: 'SplashCtrl'
+  })
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/discover');
+  $urlRouterProvider.otherwise('/');
 
 });
